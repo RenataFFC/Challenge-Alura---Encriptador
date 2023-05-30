@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ion icons link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+  
+    <header class="header-logo">
+        <img class="logo" src="./imagens/LogoAlura.png" alt="imagem logo Alura">
+        
+    </header>
+        <main class="container-main">
+    
+                <div class="container-input">
+                <section id="entrada">
+                        <div class="input">
+                        <textarea  id="input-texto"  placeholder="Digite seu texto aqui!" &#9196></textarea>
+                            <p>ATENÇÃO: Apenas letras maiusculas e sem acento!</p>
+                        </div>
+                        <div class="container-btn">
+                            <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                            <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+                        </div>
+                    </section>   
+                    <aside id="saida">                           
+                    <div id="output">            
+                            <img src="./imagens/klipartz.com (1).png" alt="imagem menina com uma lupa ">    
+                            <h2>Sua mensagem aparecerá aqui!</h2>                               
+                            </div>
+                        </aside>     
+                </div>
+               
+              
+                </div>
+    </main>
+    <footer  class="footer">
+        <h2>Desenvolvido por Renata Fernandes</h2>  
+        <div class="social-media">           
+            <a href="https://github.com/renataFFC"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/renatafernandesctba/"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto: renatactba@hotmail.com "><i class='bx bx-envelope'></i></a>
+        </div>
+        
+    </footer>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
